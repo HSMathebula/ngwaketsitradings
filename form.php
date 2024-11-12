@@ -14,7 +14,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 
     // Email settings (adjust these to your needs)
-    $to = "youremail@example.com"; // Replace with your email address
+    $to = "admin@ngwaketsitradings.co.za";
     $headers = "From: $email" . "\r\n" . "Reply-To: $email";
     $body = "Name: $name\nEmail: $email\nSubject: $subject\n\nMessage:\n$message";
 
